@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+	<html lang=en>
+	<head>
+	<meta charset="UTF-8">
+	<title>Hello Gophers</title>
+	</head>
+	<body>
+	<ul>
+        {{range $english, $swedish := .}}
+        <li>{{$english}} - {{$swedish}}</li>
+        {{end}}
+    </ul>
+	</body>
+	</html>
